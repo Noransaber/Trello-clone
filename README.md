@@ -36,12 +36,12 @@ A fully functional Trello-style project management application built with modern
 
 ### 1. Clone the Repository
 
-````bash
+```bash
 git clone https://github.com/your-username/trello-clone.git
-```cd trello-clone```
+cd trello-clone
 
 2. Install Dependencies
-```npm install```
+npm install
 
 
 3. Setup Environment Variables
@@ -60,11 +60,11 @@ Replace the placeholder values with your actual credentials.
 
 🗄️ Database Setup with Prisma (MySQL)
 1. Generate Prisma Client
-```npx prisma generate```
+npx prisma generate
 
 
 2. Run Migrations
-```npx prisma migrate dev --name init```
+npx prisma migrate dev --name init
 
 
 You can inspect your schema at prisma/schema.prisma.
@@ -97,20 +97,11 @@ Authorization: Only authorized users can access their boards. Role-based logic c
 
 🖼️ Screenshots
 Add screenshots here:
-
-Home page
-
-Board view
-
-Card drag-and-drop
-
-Payment modal
-
-Auth flow
+Home page, Board view, Card drag-and-drop, Payment modal, Auth flow
 
 
 🧠 Author
 Noran Saber
 Frontend Developer | YouTuber | Open Source Contributor
 📫 LinkedIn | GitHub | YouTube
-````
+```
