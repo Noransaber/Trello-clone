@@ -55,24 +55,17 @@ Create a .env file in the root directory and add the following keys:
 - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 - NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 - NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
 Replace the placeholder values with your actual credentials.
 
 🗄️ Database Setup with Prisma (MySQL)
 1. Generate Prisma Client
 npx prisma generate
 
-
 2. Run Migrations
 npx prisma migrate dev --name init
 
-
-You can inspect your schema at prisma/schema.prisma.
-
 🔐 Authentication & Authorization (Clerk)
 - Authentication: Implemented via Clerk with support for email/password, Google OAuth, and session management.
-
-Authorization: Only authorized users can access their boards. Role-based logic can be extended for admins or collaborators.
 
 💳 Payments & Subscriptions (Stripe)
 - Stripe is used to manage subscriptions and billing.
@@ -91,7 +84,6 @@ Authorization: Only authorized users can access their boards. Role-based logic c
 
 🧱 UI Components with ShadCN UI
 - UI built with ShadCN UI components for consistency and accessibility.
-
 - Tailwind CSS ensures rapid styling with utility classes.
 
 
